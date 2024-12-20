@@ -285,7 +285,7 @@ fi
 
 cd /opt
 
-download "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "$tar_gz_name"
+download "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/cdnfly-agent-v5.1.16-centos-7.tar.gz" "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/cdnfly-agent-v5.1.16-centos-7.tar.gz" "$tar_gz_name"
 
 rm -rf $dir_name
 tar xf $tar_gz_name
