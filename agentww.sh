@@ -5,8 +5,7 @@
 set -o errexit  # 脚本遇到错误时退出
 
 # 输出欢迎信息
-echo -e "\033[0;31m本脚本由 One Degree CDN 提供! \033[0m"
-echo -e "\033[0;31mOne Degree CDN: https://ndun.cc/\033[0m"
+echo -e "\033[0;31m本脚本由 YesCDN 提供! \033[0m"
 
 # 等待用户输入
 read -p "按 Enter 键继续运行脚本..."
@@ -286,7 +285,7 @@ fi
 
 cd /opt
 
-download "https://www.ndun.cc/httpcdnfly/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "https://www.ndun.cc/httpcdnfly/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "$tar_gz_name"
+download "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "https://raw.githubusercontent.com/unutjpwpd/cdnfly/refs/heads/main/wwcdnfly-agent-v5.1.16-centos-7.tar.gz" "$tar_gz_name"
 
 rm -rf $dir_name
 tar xf $tar_gz_name
