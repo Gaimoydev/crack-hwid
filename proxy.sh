@@ -47,7 +47,7 @@ update_proxy_append_split() {
             break
         else
             echo "Failed to fetch proxies from $url. Retrying..."
-            sleep 3
+            break
         fi
     done
 
@@ -78,7 +78,7 @@ update_proxy_append_split2() {
             break
         else
             echo "Failed to fetch proxies from $url. Retrying..."
-            sleep 3
+            break
         fi
     done
 
@@ -109,7 +109,7 @@ update_proxy_append() {
             break
         else
             echo "Failed to fetch proxies from $url. Retrying..."
-            sleep 3
+            break
         fi
     done
 
@@ -131,7 +131,7 @@ update_proxy_replace() {
             break
         else
             echo "Failed to update $file from $url. Retrying..."
-            sleep 3
+            break
         fi
     done
 }
@@ -148,7 +148,7 @@ update_proxy_replace2() {
             break
         else
             echo "Failed to fetch proxies from $url. Retrying..."
-            sleep 3
+            break
         fi
     done
 
